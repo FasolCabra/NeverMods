@@ -14,7 +14,7 @@ func:function()
 	new G.Res({
 		name:'hot pepper',
 		desc:'[hot pepper]s are loaded with capsaicin and, depending on who you ask, may produce a pleasant burn when eaten.',
-		icon:[0,0,'spicySheet'],
+		icon:[Bunger.png],
 		turnToByContext:{'eat':{'health':0.01,'happiness':0.03},'decay':{'spoiled food':0.5}},//this basically translates to : "when eaten, generate some health and happiness; when rotting, turn into either nothing or some spoiled food"
 		partOf:'food',
 		category:'food',
